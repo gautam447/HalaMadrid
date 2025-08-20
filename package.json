@@ -1,0 +1,14 @@
+{
+  "name": "halamadrid",
+  "version": "1.0.0",
+  "description": "Tools for rapidly building HubSpot CMS modules and templates",
+  "main": "cms-agent.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node cms-agent.js --help"
+  },
+  "dependencies": {
+    "@hubspot/api-client": "^11.2.0",
+    "commander": "^11.1.0"
+  }
+}
